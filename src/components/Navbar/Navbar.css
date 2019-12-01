@@ -1,0 +1,30 @@
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-brand img {
+  height: 6vh;
+  padding-left: 3rem;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  font-weight: 600;
+  padding-right: 3rem;
+  float: right;
+  text-align: left;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: lightskyblue;
+}
