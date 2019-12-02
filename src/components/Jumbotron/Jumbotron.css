@@ -1,39 +1,38 @@
 #particles-js {
-    height: 100vh;
-    background: rgb(0, 174, 255);
-  }
+  height: 100vh;
+  background: rgb(0, 89, 255);
+}
 
-  .caption {
-    position: absolute;
-    top: 30%;
-    z-index: 1;
-    color: white;
-    text-transform: uppercase;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: fl1 3s infinite linear;
-  }
-  
-  .caption span {
-    font-size: 3.9rem;
-    font-weight: 700;
-    letter-spacing: 0.3rem;
-    text-shadow: 0.1rem 0.1rem 0.8rem black;
-    padding-bottom: 1rem;
-    word-break: break-all;
-  }
-  
-  .caption h3 {
-    font-size: 2.5rem;
-    text-shadow: 0.1rem 0.1rem 0.5rem black;
-    padding-bottom: 1.6rem;
-  }
-  
-  .btn-lg {
-    border-width: medium;
-    border-radius: 0;
-    padding: 0.6rem 1.3rem;
-    font-size: 1.1rem;
-  }
-  
+.caption {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fl1 3s infinite linear;
+}
+
+.caption span {
+  font-size: 3.9rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+  word-break: break-all;
+}
+
+.caption h3 {
+  font-size: 2.5rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.3rem;
+  font-size: 1.1rem;
+}
