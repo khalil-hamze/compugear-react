@@ -115,15 +115,15 @@ const particleOpt = {
 
 function Jumbotron() {
   return (
-    <section id="home">
+    <section id="jumbotron">
       <div className="landing">
         <div className="home-wrap">
           <div id="particles-js">
             <Particles params={particleOpt} height="100vh" />
           </div>
-          <div className="caption text-center">
-            <span>Welcome to COMPUGEAR</span>
-            <h3>Perform your Computer</h3>
+          <div className="caption">
+            <h1>Technology makes the world a new place</h1>
+            <h3>Compugear is a leader in providing smart, cutting-edge technology solutions for global organizations of all sizes</h3>
             <a className="btn btn-outline-light btn-lg" href="#">
               Who we are
             </a>
