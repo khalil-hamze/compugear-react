@@ -12,22 +12,12 @@
   text-align: left;
   width: 45%;
   left: 5%;
-  bottom: initial!important;
+  bottom: initial !important;
   animation: fl1 3s infinite linear;
 }
 
-@media (max-width: 26.25em) {
-  h1 {
-    font-size: 1.875em;
-  }
-
-  h3 {
-    font-size: 8px;
-  }
-}
-
 .caption h1 {
-  /* font-size: 2.5rem; */
+  /* font-size: 3.5rem; */
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-shadow: 0.1rem 0.1rem 0.8rem black;
@@ -35,9 +25,20 @@
   padding-bottom: 1rem;
   word-break: inherit;
 }
+@media (max-width: 26.25em) {
+  h1 {
+    font-size: 1.875em;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+
 
 .caption h3 {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   text-shadow: 0.1rem 0.1rem 0.5rem black;
   padding-bottom: 1.6rem;
 }
