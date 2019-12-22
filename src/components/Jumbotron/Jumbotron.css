@@ -5,7 +5,7 @@
 
 .caption {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   z-index: 1;
   color: white;
@@ -25,6 +25,7 @@
   padding-bottom: 1rem;
   word-break: inherit;
 }
+
 @media (max-width: 26.25em) {
   h1 {
     font-size: 1.875em;
@@ -34,8 +35,6 @@
     font-size: 1rem;
   }
 }
-
-
 
 .caption h3 {
   /* font-size: 1.5rem; */
