@@ -1,27 +1,26 @@
 .container {
-    width: 60%;
+  width: 80%;
 }
 
 .title {
-    position: relative;
-    margin-top: 5rem;
-    /* margin-bottom: 25px; */
-    z-index: 10;
-    color: #1f1f1f;
-    text-align: center;
+  position: relative;
+  margin-top: 5rem;
+  /* margin-bottom: 25px; */
+  z-index: 1;
+  color: #1f1f1f;
+  text-align: center;
 }
 
 .about-content {
-    position: relative;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding: 0 10px;
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 0 10px;
 }
 
 .title-content {
-    font-size: 22px;
-    text-align: center;
-    color: blue;
-    font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: blue;
+  font-weight: 700;
 }
-
