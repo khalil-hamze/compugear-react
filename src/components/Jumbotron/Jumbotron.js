@@ -123,7 +123,10 @@ function Jumbotron() {
           </div>
           <div className="caption">
             <h1>Technology makes the world a new place</h1>
-            <h3>Compugear is a leader in providing smart, cutting-edge technology solutions for global organizations of all sizes</h3>
+            <h3>
+              Compugear is a leader in providing smart, cutting-edge technology
+              solutions for global organizations of all sizes
+            </h3>
             <a className="btn btn-outline-light btn-lg" href="#">
               Who we are
             </a>
@@ -133,6 +136,7 @@ function Jumbotron() {
           </div>
         </div>
       </div>
+      <div className="mask-block"></div>
     </section>
   );
 }

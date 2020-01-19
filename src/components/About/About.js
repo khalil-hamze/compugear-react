@@ -9,8 +9,8 @@ function About() {
           <h1 className="font-weight-bold">About Us</h1>
         </div>
         <div className="about-content">
-          <h3 className='title-content'>Who We Are</h3>
-          <p align='justify'>
+          <h3 className="title-content">Who We Are</h3>
+          <p align="justify">
             Founded in 2013, Compugnear offer quality IT solutions for home and
             business users at a price that everyone can afford. Our customers
             will always receive one-on-one personal attention at a very
@@ -19,6 +19,7 @@ function About() {
           </p>
         </div>
       </div>
+      <hr></hr>
     </section>
   );
 }
